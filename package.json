@@ -5,6 +5,7 @@
     "lint": "eslint src server tests --ext .js,.ts,.jsx,.tsx",
     "test": "yarn test-jest",
     "test-jest": "jest tests/components",
+    "build:type": "tsc -P ./tsconfig.type.json",
     "test-tsd": "tsd tests/types-tsd",
     "test-dtslint": "dtslint tests/types-dtslint"
   },
